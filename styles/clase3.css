@@ -95,7 +95,6 @@ body {
   font-size: var(--md);
   font-weight: bold;
   height: 50px;
-  margin-top: 300px;
 }
 
 @media (max-width: 640px) {
@@ -112,5 +111,6 @@ body {
     font-size: var(--md);
     font-weight: bold;
     height: 50px;
+    margin-top: 250px;
   }
 }/*# sourceMappingURL=clase3.css.map */
