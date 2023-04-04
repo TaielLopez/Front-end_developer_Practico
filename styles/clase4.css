@@ -47,26 +47,10 @@ body {
   margin-bottom: 4pox;
 }
 
-.input {
-  background-color: var(--text-input-field);
-  border: none;
-  border-radius: 8px;
-  height: 32px;
-  font-size: var(--md);
-  padding: 6px;
-  margin-bottom: 12px;
-}
-.input-name {
-  margin-bottom: 12px;
-  background: none;
-}
-.input-email {
-  margin-bottom: 12px;
-  background: none;
-}
-.input-password {
-  margin-bottom: 12px;
-  background: none;
+.value {
+  color: var(--very-light-pink);
+  font-size: bold;
+  margin: 9px 0 32px 0;
 }
 
 .form {
@@ -78,7 +62,7 @@ body {
   flex-direction: column;
 }
 
-.primary-button {
+.secondary-button {
   background-color: var(--white);
   border-radius: 8px;
   border: 1px solid var(--hospital-green);

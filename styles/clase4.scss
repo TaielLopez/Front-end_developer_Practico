@@ -42,29 +42,12 @@ body{
     font-weight: bold;
     margin-bottom: 4pox;
 }
-.input  {
-    background-color: var(--text-input-field);
-    border: none;
-    border-radius: 8px;
-    height: 32px;
-    font-size: var(--md);
-    padding: 6px;
-    margin-bottom: 12px;
-    &-name{
-        margin-bottom: 12px;
-        background: none;
-    }
-    &-email{
-        margin-bottom: 12px;
-        background: none;
-
-    }
-    &-password{
-        margin-bottom: 12px;
-        background: none;
-
-    }
+.value{
+    color: var(--very-light-pink);
+    font-size: bold;
+    margin: 9px 0 32px 0;
 }
+
 .form{
     display: flex;
     flex-direction: column;
@@ -73,7 +56,7 @@ body{
         flex-direction: column;
     }
 }
-.primary-button{
+.secondary-button{
 
     background-color: var(--white);
     border-radius: 8px;
