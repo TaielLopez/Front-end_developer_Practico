@@ -64,6 +64,7 @@ body {
   .cards-container {
     grid-template-columns: repeat(2, 194px);
     gap: 12px;
+    margin-left: 10px;
   }
   .product-card {
     width: 172px;
