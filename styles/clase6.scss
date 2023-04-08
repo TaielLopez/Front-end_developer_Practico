@@ -57,15 +57,14 @@ body{
 }
 @media (max-width: 640px) {
     .cards-container{
-        grid-template-columns: repeat(2, 194px);
-        gap: 12px;
-        margin-left: 10px;
+        grid-template-columns: repeat(2, 172px);
+        gap: 8px;
     }
     .product-card{
         width: 172px;
         & img{
-            width: 172px;//160
-            height: 172px;//160
+            width: 172px;
+            height: 172px;
         }
     }
 }
