@@ -59,10 +59,10 @@ body {
   color: var(--very-light-pink);
 }
 
-@media (min-width: 640px) {
+@media (max-width: 640px) {
   .cards-container {
     grid-template-columns: repeat(auto-fill, 140px);
-    gap: 10px;
+    gap: 30px;
   }
   .product-card {
     width: 140px;
