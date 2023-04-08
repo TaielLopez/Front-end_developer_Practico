@@ -62,14 +62,14 @@ body {
 
 @media (max-width: 640px) {
   .cards-container {
-    grid-template-columns: repeat(auto-fill, 144px);
-    gap: 20px;
+    grid-template-columns: repeat(2, 194px);
+    gap: 12px;
   }
   .product-card {
-    width: 148px;
+    width: 172px;
   }
   .product-card img {
-    width: 148px;
-    height: 148px;
+    width: 172px;
+    height: 172px;
   }
 }/*# sourceMappingURL=clase6.css.map */
