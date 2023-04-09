@@ -10,6 +10,11 @@
   --lg: 18px;
 }
 
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
 .desktop-menu {
   width: 100px;
   height: auto;
