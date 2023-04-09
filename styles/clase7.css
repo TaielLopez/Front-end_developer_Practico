@@ -16,8 +16,6 @@
   border: 1px solid var(--very-light-pink);
   border-radius: 8px;
   padding: 20px 20px 0 20px;
-  box-shadow: 10px;
-  box-sizing: 10px;
 }
 .desktop-menu ul {
   list-style: none;
